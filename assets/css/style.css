@@ -1,0 +1,169 @@
+header {
+  background-image: url("https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg");
+  height: 65rem;
+  background-position: cover;
+  background-attachment: fixed;
+}
+
+.slogan {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slogan p {
+  color: rgb(82, 81, 81);
+  font-size: 1.1rem;
+}
+.slogan h1 {
+  font-size: 4rem;
+}
+.slogan button {
+  font-size: 1.3rem;
+  background-color: rgb(242, 58, 46);
+  border: none;
+  padding: 23px 40px;
+  border-radius: 5px;
+}
+
+.video {
+  width: 50%;
+  margin: 0 auto;
+  height: 4vh;
+  background-color: black;
+}
+.video i {
+  color: white;
+}
+
+@media (max-width: 655px) {
+  .slogan p {
+    color: rgb(82, 81, 81);
+    font-size: 1.1rem;
+  }
+  .slogan h1 {
+    font-size: 2rem;
+  }
+  .slogan button {
+    font-size: 1.1rem;
+    background-color: rgb(242, 58, 46);
+    border: none;
+    padding: 20px 35px;
+    border-radius: 4px;
+  }
+}
+@media (max-width: 570px) {
+  .slogan p {
+    color: rgb(82, 81, 81);
+    font-size: 1.1rem;
+  }
+  .slogan h1 {
+    font-size: 2rem;
+  }
+  .slogan button {
+    font-size: 0.9rem;
+    background-color: rgb(242, 58, 46);
+    border: none;
+    padding: 18px 30px;
+    border-radius: 3px;
+  }
+}
+.row {
+  width: 80%;
+  margin: 0 auto;
+}
+.row .video input {
+  width: 55%;
+}
+.row .carts {
+  display: flex;
+  box-shadow: 0 12px 20px rgb(207, 205, 205);
+}
+.row img {
+  width: 100%;
+}
+.row .col-md-8 {
+  width: 60%;
+  margin: 10% auto;
+}
+.row .col-md-8 .fw-light {
+  font-size: 2.1rem;
+  color: rgb(242, 58, 46);
+}
+.row .row.p-0 {
+  padding: 0 !important;
+}
+.row .yazi {
+  font-size: 1.3rem;
+}
+.row .mike {
+  font-size: 1.1rem;
+}
+
+.counter button {
+  padding: 10px 17px;
+  border-radius: 50%;
+}
+.counter button .actives {
+  color: rgb(242, 58, 46);
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  transform: translateX(38%);
+}
+.video i {
+  font-size: 22px;
+}
+.video input {
+  width: 100%;
+}
+
+.fotos {
+  margin-top: 230px;
+}
+.fotos .col-4 {
+  overflow: hidden;
+}
+.fotos .col-4 img {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.col-4 {
+  position: relative;
+}
+.col-4 .overlay {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(242, 58, 46);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0.7;
+  transition: 0.5s;
+  display: inline-block;
+  padding-top: 110px;
+}
+.col-4 .overlay img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.col-4:hover .overlay {
+  top: 0;
+}
+.col-4:hover img {
+  transform: scale(1.1);
+}
+.col-4 .media-icon i {
+  font-size: 37px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1900px;
+  }
+}/*# sourceMappingURL=style.css.map */
